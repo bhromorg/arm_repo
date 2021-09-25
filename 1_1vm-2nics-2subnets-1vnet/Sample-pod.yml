@@ -8,5 +8,9 @@ spec:
   containers:
   - name: sample-pod
     image: merpso/ngnix-plus-k8s-ingress
-      ports:
+    resources:
+      
+    
+    
+    ports:
       - containerPort: 80
