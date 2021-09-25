@@ -5,7 +5,7 @@ metadata:
 spec:
   containers:
   -   name: webserver
-      image: "ngnix:1.21"
+      image: "userxy2015/ngnix"
       resources:
       ports:
       - containerPort: 80
