@@ -3,11 +3,11 @@ kind: Pod
 metadata:
   name: ngnix
   labels:
-    name: ngnix
+    name: sample-pod
 spec:
   containers:
   - name: sample-pod
-    image: ngnix
+    image: userxy2015/ngnix
     resources:
       limits:
         memory: "128Mi"
