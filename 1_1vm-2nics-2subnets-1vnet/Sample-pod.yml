@@ -7,7 +7,7 @@ metadata:
 spec:
   containers:
   - name: sample-pod
-    image: userxy2015/ngnix
+    image: merpso/ngnix-plus-k8s-ingress
     resources:
       limits:
         memory: "128Mi"
