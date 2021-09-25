@@ -3,9 +3,11 @@ kind: Pod
 metadata:
   name: webserver
 spec:
+  type: NodePort
   containers:
   -   name: webserver
       image: tomcat:9.0
       resources:
       ports:
       - containerPort: 80
+      -nodPort: 8080
