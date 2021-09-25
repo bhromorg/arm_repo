@@ -6,7 +6,7 @@ metadata:
     name: ngnix
 spec:
   containers:
-  - name: smaple-pod
+  - name: sample-pod
     image: ngnix
     resources:
       limits:
